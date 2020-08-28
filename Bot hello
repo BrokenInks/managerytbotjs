@@ -1,0 +1,8 @@
+const Discord = require('discord.js')
+const strftime = require('strftime')
+module.exports.run = async (bot, message, args) => {
+    message.channel.send('bot online ')
+}
+module.exports.help = {
+    name: 'bot'
+}
